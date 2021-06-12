@@ -9,6 +9,12 @@ import {
 } from '@angular/core';
 import { Observable } from 'rxjs';
 
+/**
+ * `persistOnChange` directive takes an Input - @param observableFn which @returns an Observable ideally returned by an http request.
+ * and shows loader when the request is in-flight and  shows a tick mark on API success.
+ * In API failure cases, shows the error message below the host.
+ * Ideally to be used with the Select element(not limitted to)
+ */
 @Directive({
   selector: '[persistOnChange]',
 })
