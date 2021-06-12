@@ -1,6 +1,9 @@
-# PersistOnChange
+# Angular Persist on Change directive
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.4.
+Angular directive to show better UI feedback to the user for self saving select elements.
+
+![ezgif com-gif-maker (7)](https://user-images.githubusercontent.com/22723153/121782512-5c282f80-cbc7-11eb-92a5-f12cbd1bc42b.gif)
+
 
 ## Development server
 
