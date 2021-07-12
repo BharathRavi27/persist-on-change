@@ -16,9 +16,9 @@ import { Observable } from 'rxjs';
  * Ideally to be used with the Select element(not limitted to)
  */
 @Directive({
-  selector: '[persistOnChange]',
+  selector: '[selfSave]',
 })
-export class PersistOnChangeDirective {
+export class SelfSaveDirective {
   @Input('observableFn')
   observableFn!: Function;
   constructor(

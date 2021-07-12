@@ -3,10 +3,10 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { PersistOnChangeDirective } from './persist-on-change.directive';
+import { SelfSaveDirective } from './self-save.directive';
 
 @NgModule({
-  declarations: [AppComponent, PersistOnChangeDirective],
+  declarations: [AppComponent, SelfSaveDirective],
   imports: [BrowserModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
